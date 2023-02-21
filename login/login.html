@@ -6,16 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./login.css">
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
 </head>
 <body>
-    <div class="login">
-        <h1>Login</h1>
-          <form method="post">
-            <input type="text" name="u" placeholder="Username" required="required" />
-              <input type="password" name="p" placeholder="Password" required="required" />
-              <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
-          </form>
+    
+    <div class="login-form-bd">
+        <div class="form-wrapper">
+          <div class="form-container">
+            <h1> Please Login</h1>
+            <form>
+              <div class="form-control">
+                <input type="text" required>
+                <label> Email</label>
+              </div>
+      
+              <div class="form-control">
+                <input type="password" required>
+                <label> Password</label>
+              </div>
+              <button class="login-btn">Login</button>
+              <p class="text">Don't have an account? <a href="register.html"> Register</a></p>
+            </form>
+          </div>
+        </div>
       </div>
     <script src="./login.js"></script>
 </body>

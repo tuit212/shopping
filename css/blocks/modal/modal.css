@@ -1,0 +1,95 @@
+.modal {
+  z-index: 999999;
+  position: fixed;
+  width: 55%;
+  height: 100vh;
+  right: 0;
+  top: 0px;
+  background-color: #5BC0F8;
+  display: none;
+}
+.modal__telCard {
+  margin: 0 auto;
+}
+.modal__telCard__phone {
+  padding: 10px 0;
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.modal__telCard__phone:hover {
+  background-color: #0081C9;
+}
+.modal__telCard__phone__icon {
+  font-size: 20px;
+  color: black;
+}
+.modal__telCard__phone__tel {
+  color: #000;
+}
+.modal__telCard__telegram {
+  padding: 10px 0;
+  border-bottom: 1px solid #000;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal__telCard__telegram:hover {
+  background-color: #0081C9;
+}
+.modal__telCard__telegram__link {
+  color: black;
+}
+.modal__telCard__telegram__icon {
+  font-size: 25px;
+  color: #009EFF;
+}
+.modal__telCard__instagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.modal__telCard__instagram__icon {
+  font-size: 23px;
+  color: white;
+  padding: 5px;
+  border-radius: 10pc;
+  background: rgb(112, 24, 24);
+  background: linear-gradient(90deg, rgb(112, 24, 24) 8%, rgb(255, 0, 0) 83%);
+}
+.modal__telCard__instagram__link {
+  color: black;
+}
+.modal__item__link {
+  padding: 10px 0;
+  width: 100%;
+  display: block;
+  color: black;
+  border-bottom: 0.1px solid #000;
+  font-size: 23px;
+  text-align: center;
+}
+.modal__item__link:hover {
+  background-color: #0081C9;
+}
+
+#iconX {
+  padding: 10px;
+  font-size: 22px;
+  transition: 0.3s;
+  color: black;
+}
+#iconX:hover {
+  transform: scale(1.2) rotate(180deg);
+}
+
+.modalOpen {
+  display: block;
+}
+
+/*# sourceMappingURL=modal.css.map */

@@ -1,0 +1,365 @@
+.site-header{
+    padding: 10px 0;
+    background-color:#A0C3D2;
+    margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    &__linya{
+        padding: 0.1px;
+        background-color: #000;
+        display: block;
+    }
+    
+    .header{
+    
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__inCard{
+            width: 20%;
+            position: relative;
+            &__input{
+                outline: none;
+                background-color: transparent;
+                border-radius: 10px 0 10px 0 ;
+                padding: 5px  5px 5px 30px; 
+                width: 100%;
+                font-size: 18px;
+                border: 1px solid #000;
+            }
+            
+            &__lupa{
+                position: absolute;;
+                left: 1px;
+                top: 1px;
+                border-radius: 8.6px 0 0px 0 ;
+                font-size: 18px;
+                color:white;
+                transition: 0.3s;
+                background-color:#034e67 ;
+                padding: 7px 4px 6px 4px;
+              
+            }
+        }
+    
+    
+        &__card{
+            
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            width: 300px;
+            
+            &__box1{
+                
+               
+                
+                &__icon{
+                    font-size: 23px;
+                    transition: 0.3s;   
+                    transform: rotate(135deg);
+                    padding:  5px;
+                    border-radius: 10pc;
+                    border: 1px solid transparent;
+                    cursor: pointer;
+                    color: #034e67;
+                    &:hover{
+                    
+                        transform: rotate(10deg);
+                        border: 1px solid #000;
+                    }
+                }
+            }
+            
+            
+            &__box2{
+                
+               
+                &__link{
+                color: black;
+                font-size: 18px;
+                }
+                   
+                &__link2{
+                    color: black;
+                    font-size: 18px;
+                }
+            }
+        
+        }
+    
+        
+        &__logo{
+            width: 60px;
+        }
+        
+        &__list{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        
+        &__item{
+        
+            transition: 0.3s;
+            
+            &:active{
+                transform: scale(0.9);
+            
+            }
+            &__links{
+                color: black;
+                font-size: 20px;
+                position: relative;
+                border: 1px solid transparent;
+                padding: 4px 15px;
+                border-radius: 10px 0 10px 0;
+                transition: 0.3s;
+                
+                
+                 &:hover{
+                    border: 1px solid #000;
+                    background-color: #000;
+                    color: white;;
+                }
+                
+                
+                &:active{
+                    border: 1px solid #ccc;
+                    background-color: #000000bc;
+                    color: white;;
+                    
+                }
+             }
+               
+         }
+         
+         
+         &__menu{
+            font-size: 28px;
+            transition: 0.3s;
+            display: none;
+            &:hover{
+                color: #000000b2;
+            }
+         }
+    }
+    
+    .headerBottom{
+          padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        
+        
+        &__userCard{
+            text-align: center;
+            color: #000;
+             &__user{
+                font-size: 23px;
+                color: #0e4c67;
+                
+                &:hover{
+                    color: #0e4c6789;
+                }
+            }
+        }
+        
+       
+        
+        &__select{
+            padding: 5px 15px ;
+            width: 20%;
+            outline: none;;
+            background-color: #034e67;
+            color: white;
+            font-size: 20px;
+            border-radius: 4px;
+            border: 2px solid #333;
+        }
+        
+        &__card{
+            width: 35%;
+            display: flex;
+            gap: 10px;
+            position: relative;
+            &__input{
+                outline: none;
+                width: 100%;
+                padding: 6px  70px 6px 6px;
+                font-size: 20px;
+                border: 2px solid #063f5885;
+                border-radius: 4px;
+                border-radius: 10px 0 10px 0;
+            }
+            &__btn{
+                padding: 6px 10px;
+                background-color: #034e67;
+                color: white;;
+                border:  2px solid #063f58;
+                font-size: 18px;
+                border-radius: 4px;
+                transition: 0.2s;
+                position: absolute;
+                right: 0;
+                border-radius: 0 0 9px 0 ;
+                
+                &:active{
+                    transform: scale(0.95);
+                }
+            }
+            
+        }
+        
+        &__box{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            width:30%;
+            
+            
+            &__like{
+                position: relative;;
+                text-align: center;
+                padding: 8px 15px 8px 15px;
+                border-radius: 6px;
+                border: 1px solid #ccc;
+                transition: 0.3s;
+                
+                &:hover{
+                    color: white    ;
+                    background-color: #063f58a1;
+
+                    }
+                &__inc{
+                position: absolute;
+                padding: 3px 5px;
+                font-size: 10px;
+                background-color: red;
+                border-radius: 10pc;
+                top: 5%;
+                left: 69%;
+               
+                
+                }
+            }
+            &__shoop{
+                width: 60%;
+                border: 1px solid #ccc;
+                padding: 10px 20px 10px 5px;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                border-radius: 6px;
+                transition: 0.3s;
+                &:hover{
+                color: white    ;
+                    background-color: #063f58a1;
+                }
+                
+                &__lop{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                }
+                
+            }
+        }
+        
+    }
+    
+    
+    
+}
+
+@media screen and ( max-width: 1090px ) {
+    .site-header{
+    
+        .header{
+            
+            &__card{
+                width: 24%;
+                &__box2{
+                
+                    &__link{
+                        width: 100%;
+                    }
+                    
+                    &__link2{
+                        width: 100%;
+                        font-size: 14px;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 910px ) {
+    .site-header{
+    
+        .header{
+            
+           &__inCard{
+           width: 30%;
+            &__input{
+                width: 100%;
+            }
+           }
+           
+           
+           &__card{
+            display: none;
+           }
+            
+            
+            
+        }
+    }
+}
+
+@media screen and ( max-width: 768px ) {
+    .site-header{
+    
+        .header{
+        &__menu{
+            display: block;
+            margin-right: 30px;
+        }
+        
+        &__list{
+            display: none;
+        }
+            
+           &__inCard{
+                 width: 60%;
+                 
+            &__input{
+                width: 100%;
+            }
+           }
+           
+           
+           &__card{
+            display: none;
+           }
+            
+        }
+    }
+}

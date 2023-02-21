@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <!-- css link -->
     <link rel="stylesheet" href="./css/main.css">
-    <title>shopping</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <title>UZ SHOP</title>
 </head>
 <body>
     <!-- header start -->
     <header class="site-header">
         <div class="container">
             <div class="header">
+      
                 <a href="#">
-                    <img src="./img/86aa6c8c106348fc82dd5bce8a0e4d1e.png" alt="" class="header__logo">
+                    <img src="./img/logo.png"   alt="" class="header__logo">
                 </a>
                 <ul class="header__list">
                     <li class="header__item">
@@ -39,33 +41,151 @@
                             Card
                         </a>
                     </li>
+                    <li class="header__item">
+                        <a href="#" class="header__item__links">
+                            Card
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__item__links">
+                            Card
+                        </a>
+                    </li>
+                    
                 </ul>
                 
                 <div class="header__card">
-                    <div class="header__card__box1">
-                    <i class="fa fa-phone"></i>
+                    <div class="header__card__box1" >
+                    <i class="fa fa-phone header__card__box1__icon"></i>
                     </div>
                     <div class="header__card__box2">
-                    <a href="tel:998882064344">+998-88-206-43-44</a>
-                    <!-- <a href="email:toxirusmonov94@gmail.com">toxirusmonov@gamil.com</a> -->
-                    <a href = "mailto: toxirusmonov94@gmail.com">toxirusmonov94@gmail.com</a>
+                    <a href="tel:998882064344" class="header__card__box2__link">+998-88-206-43-44</a>
+                    <a href = "mailto: toxirusmonov94@gmail.com" class="header__card__box2__link2">toxirusmonov94@gmail.com</a>
                     </div>
                 </div>
+                <i class="fa fa-bars header__menu" id="headerMenu"></i>
+              
+            </div>
+            <span class="site-header__linya"></span>
+            <div class="headerBottom">
+                <select name="select" id="select" class="headerBottom__select">
+                    <option value="Fudbolka"> Fudbolka</option>
+                    <option value="Shim">Shim</option>
+                    <option value="Ko'lak">Ko'lak</option>
+                    <option value="Kastyum">Kastyum</option>
+                    <option value="Finka">Finka</option>
+                    <option value="Telefon">Telefon</option>
+                    <option value="Televizor">Televizo'r</option>
+                    <option value="Fudbolka">Fudbolka</option>
+                    <option value="Fudbolka">Fudbolka</option>
+                </select>
+            
+                <div class="headerBottom__card">
+                    <input type="text" placeholder="seacrch . . . " class="headerBottom__card__input">
+                    <button class="headerBottom__card__btn">Send</button>
+                </div>
+
+                <div class="headerBottom__box">
+                    <div class="headerBottom__box__like">  
+                        <img src="./img/love.png" alt="" style="width: 20px;">
+                        <span class="headerBottom__box__like__inc" >1</span>
+                    </div>
+                    <div class="headerBottom__box__shoop">  
+                        <img src="./img/shopping-cart.png" alt="" style="width: 20px;">
+                            <p>|</p>
+                        <div class="headerBottom__box__shoop__lop">
+                            <p>0card </p>
+                            <p>|</p>
+                            <p>$100</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="headerBottom__userCard">
+                    <i class="fa fa-user headerBottom__userCard__user "></i>
+                    <p style="font-size: 14px;"> Account</p>
+                </a>
             </div>
         </div>
     </header>
+        <!-- modal start -->
+            
+            <div class="modal" id="modal">
+                <i class="fa fa-x" id="iconX"></i>
+                <hr>
+                
+                <ul class="modal__list">
+                    <li class="modal__item">
+                        <a href="#" class="modal__item__link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="modal__item">
+                        <a href="#" class="modal__item__link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="modal__item">
+                        <a href="#" class="modal__item__link">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="modal__item">
+                        <a href="#" class="modal__item__link">
+                            Home
+                        </a>
+                    </li><li class="modal__item">
+                        <a href="#" class="modal__item__link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="modal__item">
+                        <a href="#" class="modal__item__link">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="modal__item">
+                        <a href="#" class="modal__item__link">
+                            Home
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="modal__telCard">
+                    <div class="modal__telCard__phone">
+                    <i class="fa fa-phone modal__telCard__phone__icon"></i>
+                    <a href="tel:998882064344" class="modal__telCard__phone__tel">+998 88 206 43 44</a>
+                    </div>
+                    
+                    <div class="modal__telCard__telegram">
+                        <i class="fa-brands fa-telegram modal__telCard__telegram__icon"></i>
+                        <a href="https://t.me/TOXIR_USMONOV" class="modal__telCard__telegram__link">
+                            TOXIR_USMONOV
+                        </a>
+                    </div>
+                    
+                    <div class="modal__telCard__instagram">
+                        <i class="fa-brands fa-instagram modal__telCard__instagram__icon" ></i>
+                        <a href="https://instagram.com/usmonov_0_4" class="modal__telCard__instagram__link">
+                            TOXIR_USMONOV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+        <!-- modal end -->
     <!-- header end -->
     <!-- main start -->
     <main class="site-main">
         <!-- section hero start -->
         <section class="hero-section">
-
         </section>
         <!-- section hero end -->
     </main>
     <!-- main end -->
     <!-- footer start -->
-    <footer class="site-footer">
+    <!-- <footer class="site-footer">
         <div class="container">
             <div class="footer">
                 <div class="footer__about">
@@ -106,10 +226,11 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- footer end   -->
     
     <!-- js link -->
     <script src="./js/index.js"></script>
+    <script src="./js/modal/modal.js"></script>
 </body>
 </html>

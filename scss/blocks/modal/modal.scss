@@ -1,0 +1,117 @@
+.modal{
+    z-index: 999999;
+    position: fixed;
+    width: 55%;
+    height: 100vh;
+    right: 0;
+    top: 0px;
+    background-color: #5BC0F8;
+    display: none;
+    
+    &__telCard{
+        margin: 0 auto;
+       
+        
+        &__phone{
+            padding: 10px 0;
+            border-bottom: 1px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            &:hover{
+                background-color: #0081C9;
+            }
+            
+            &__icon{
+                font-size: 20px;
+                color: black;
+            }
+            
+            &__tel{
+                color: #000;
+            }
+        }
+        
+        &__telegram{
+            padding: 10px 0;
+            border-bottom: 1px solid #000;
+            gap: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover{
+                background-color: #0081C9;
+            }
+            
+            &__link{
+                color: black;
+            }
+            &__icon{
+                font-size: 25px;
+                color: #009EFF;
+                
+            }
+        }
+        
+        
+        &__instagram{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            
+            &__icon{
+                font-size: 23px;
+                color: white;;
+                padding: 5px;
+                border-radius: 10pc;
+                background: rgb(112,24,24);
+                background: linear-gradient(90deg, rgba(112,24,24,1) 8%, rgba(255,0,0,1) 83%);
+            }
+            
+            &__link{
+                color: black;;
+            }
+        }
+        
+    }
+    
+    &__item{
+       &__link{
+         padding: 10px 0;
+         width: 100%;
+         display: block;
+         color: black;
+         border-bottom: 0.1px solid #000;
+         font-size: 23px;
+         text-align: center;
+        
+        &:hover{
+            background-color: #0081C9;
+        }
+        
+       }
+        
+    }
+    
+       
+    
+}
+
+
+#iconX{
+    padding: 10px;
+    font-size: 22px;
+    transition: 0.3s;
+    color: black;
+    
+    &:hover{
+        transform: scale(1.2) rotate(180deg) ;
+    }
+}
+
+.modalOpen{
+    display: block;
+}

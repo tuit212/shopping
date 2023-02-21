@@ -21,25 +21,21 @@
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 .site-header__linya {
   padding: 0.1px;
   background-color: #000;
   display: block;
 }
-
 .site-header .header {
   padding-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .site-header .header__inCard {
   width: 20%;
   position: relative;
 }
-
 .site-header .header__inCard__input {
   outline: none;
   background-color: transparent;
@@ -49,7 +45,6 @@
   font-size: 18px;
   border: 1px solid #000;
 }
-
 .site-header .header__inCard__lupa {
   position: absolute;
   left: 1px;
@@ -61,14 +56,12 @@
   background-color: #034e67;
   padding: 7px 4px 6px 4px;
 }
-
 .site-header .header__card {
   display: flex;
   align-items: center;
   gap: 20px;
   width: 300px;
 }
-
 .site-header .header__card__box1__icon {
   font-size: 23px;
   transition: 0.3s;
@@ -79,40 +72,32 @@
   cursor: pointer;
   color: #034e67;
 }
-
 .site-header .header__card__box1__icon:hover {
   transform: rotate(10deg);
   border: 1px solid #000;
 }
-
 .site-header .header__card__box2__link {
   color: black;
   font-size: 18px;
 }
-
 .site-header .header__card__box2__link2 {
   color: black;
   font-size: 18px;
 }
-
 .site-header .header__logo {
   width: 60px;
 }
-
 .site-header .header__list {
   display: flex;
   align-items: center;
   gap: 30px;
 }
-
 .site-header .header__item {
   transition: 0.3s;
 }
-
 .site-header .header__item:active {
   transform: scale(0.9);
 }
-
 .site-header .header__item__links {
   color: black;
   font-size: 20px;
@@ -122,50 +107,41 @@
   border-radius: 10px 0 10px 0;
   transition: 0.3s;
 }
-
 .site-header .header__item__links:hover {
   border: 1px solid #000;
   background-color: #000;
   color: white;
 }
-
 .site-header .header__item__links:active {
   border: 1px solid #ccc;
   background-color: rgba(0, 0, 0, 0.737254902);
   color: white;
 }
-
 .site-header .header__menu {
   font-size: 28px;
   transition: 0.3s;
   display: none;
 }
-
 .site-header .header__menu:hover {
   color: rgba(0, 0, 0, 0.6980392157);
 }
-
 .site-header .headerBottom {
   padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .site-header .headerBottom__userCard {
   text-align: center;
   color: #000;
 }
-
 .site-header .headerBottom__userCard__user {
   font-size: 23px;
   color: #0e4c67;
 }
-
 .site-header .headerBottom__userCard__user:hover {
   color: rgba(14, 76, 103, 0.537254902);
 }
-
 .site-header .headerBottom__select {
   padding: 5px 15px;
   width: 20%;
@@ -176,14 +152,12 @@
   border-radius: 4px;
   border: 2px solid #333;
 }
-
 .site-header .headerBottom__card {
   width: 35%;
   display: flex;
   gap: 10px;
   position: relative;
 }
-
 .site-header .headerBottom__card__input {
   outline: none;
   width: 100%;
@@ -193,7 +167,6 @@
   border-radius: 4px;
   border-radius: 10px 0 10px 0;
 }
-
 .site-header .headerBottom__card__btn {
   padding: 6px 10px;
   background-color: #034e67;
@@ -206,18 +179,15 @@
   right: 0;
   border-radius: 0 0 9px 0;
 }
-
 .site-header .headerBottom__card__btn:active {
   transform: scale(0.95);
 }
-
 .site-header .headerBottom__box {
   display: flex;
   align-items: center;
   gap: 50px;
   width: 30%;
 }
-
 .site-header .headerBottom__box__like {
   position: relative;
   text-align: center;
@@ -226,12 +196,10 @@
   border: 1px solid #ccc;
   transition: 0.3s;
 }
-
 .site-header .headerBottom__box__like:hover {
   color: white;
   background-color: rgba(6, 63, 88, 0.631372549);
 }
-
 .site-header .headerBottom__box__like__inc {
   position: absolute;
   padding: 3px 5px;
@@ -241,7 +209,6 @@
   top: 5%;
   left: 69%;
 }
-
 .site-header .headerBottom__box__shoop {
   width: 60%;
   border: 1px solid #ccc;
@@ -252,12 +219,10 @@
   border-radius: 6px;
   transition: 0.3s;
 }
-
 .site-header .headerBottom__box__shoop:hover {
   color: white;
   background-color: rgba(6, 63, 88, 0.631372549);
 }
-
 .site-header .headerBottom__box__shoop__lop {
   display: flex;
   align-items: center;
@@ -319,7 +284,6 @@
 .footer__logo {
   width: 120px;
 }
-
 .footer__logo > img {
   width: 120px;
 }
@@ -340,11 +304,9 @@
   background-color: #5BC0F8;
   display: none;
 }
-
 .modal__telCard {
   margin: 0 auto;
 }
-
 .modal__telCard__phone {
   padding: 10px 0;
   border-bottom: 1px solid #000;
@@ -354,20 +316,16 @@
   gap: 10px;
   width: 100%;
 }
-
 .modal__telCard__phone:hover {
   background-color: #0081C9;
 }
-
 .modal__telCard__phone__icon {
   font-size: 20px;
   color: black;
 }
-
 .modal__telCard__phone__tel {
   color: #000;
 }
-
 .modal__telCard__telegram {
   padding: 10px 0;
   border-bottom: 1px solid #000;
@@ -376,27 +334,22 @@
   justify-content: center;
   align-items: center;
 }
-
 .modal__telCard__telegram:hover {
   background-color: #0081C9;
 }
-
 .modal__telCard__telegram__link {
   color: black;
 }
-
 .modal__telCard__telegram__icon {
   font-size: 25px;
   color: #009EFF;
 }
-
 .modal__telCard__instagram {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
-
 .modal__telCard__instagram__icon {
   font-size: 23px;
   color: white;
@@ -405,11 +358,9 @@
   background: rgb(112, 24, 24);
   background: linear-gradient(90deg, rgb(112, 24, 24) 8%, rgb(255, 0, 0) 83%);
 }
-
 .modal__telCard__instagram__link {
   color: black;
 }
-
 .modal__item__link {
   padding: 10px 0;
   width: 100%;
@@ -419,7 +370,6 @@
   font-size: 23px;
   text-align: center;
 }
-
 .modal__item__link:hover {
   background-color: #0081C9;
 }
@@ -430,13 +380,10 @@
   transition: 0.3s;
   color: black;
 }
-
 #iconX:hover {
   transform: scale(1.2) rotate(180deg);
 }
 
 .modalOpen {
   display: block;
-} /*# sourceMappingURL=main.css.map */
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
